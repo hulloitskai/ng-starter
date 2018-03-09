@@ -1,11 +1,16 @@
 {
   "name": "ng-starter",
-  "version": "0.0.0",
+  "description": "A custom starter setup for Angular (with an Express backend in mind).",
+  "version": "1.0.0",
   "license": "MIT",
+  "config": {
+    "buildPath": "dist"
+  },
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build --prod",
+    "dev": "ng serve --proxy-config proxy.conf.json",
+    "start": "ng serve --open --proxy-config proxy.conf.json",
+    "build": "ng build --prod --output-path $npm_package_config_buildPath",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -32,6 +37,7 @@
     "@types/jasmine": "~2.8.3",
     "@types/jasminewd2": "~2.0.2",
     "@types/node": "~6.0.60",
+    "autoprefixer": "^8.1.0",
     "codelyzer": "^4.0.1",
     "jasmine-core": "~2.8.0",
     "jasmine-spec-reporter": "~4.2.1",

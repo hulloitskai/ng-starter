@@ -1,0 +1,6 @@
+@mixin no-spacing { margin: 0; padding: 0; }
+
+@mixin use-flex($direction: column) {
+  display: flex;
+  flex-direction: $direction;
+}
