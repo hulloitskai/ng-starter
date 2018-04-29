@@ -1,3 +1,54 @@
+// Imports
+@import '../../Shared/SCSS/mixins';
+
+// Colors
+$clr-light-grey: #f1f1f1;
+$clr-med-grey: #bfbfbf;
+$clr-med2-grey: #939393;
+$clr-dark-grey: #5d5d5d;
+
+div.root {
+	background-color: $clr-light-grey;
+	position: absolute;
+	left: 0; right: 0; top: 0; bottom: 0;
+	@include use-flex();
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+
+  h2 {
+    font-family: Ubuntu, sans-serif;
+    font-size: 20pt;
+    font-weight: 300;
+    color: $clr-dark-grey;
+  }
+
+	div.card {
+    align-items: center;
+		background-color: $clr-med-grey;
+    padding: 35pt;
+    border-radius: 20pt;
+    cursor: pointer;
+    transition: all .25s ease-out;
+
+    &:hover {
+      background-color: $clr-med2-grey;
+
+    }
+
+    img {
+      width: 20vw;
+      min-width: 125pt;
+      max-width: 225pt;
+      height: auto;
+    }
+	}
+
+  div.spacer {
+    height: 25pt;
+  }
+}
+
 p {
 	margin: 0;
 }

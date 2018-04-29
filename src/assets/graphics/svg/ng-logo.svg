@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="558px" height="599px" viewBox="0 0 558 599" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>ng-logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="splash-page" transform="translate(-1161.000000, -601.000000)" fill-rule="nonzero">
+            <g id="graphic" transform="translate(996.000000, 456.000000)">
+                <g id="ng-logo" transform="translate(165.000000, 145.000000)">
+                    <polygon id="Shape" fill="#DD0031" points="279 0 279 0 279 0 0 99.434 42.5542427 468.1185 279 599 279 599 279 599 515.445757 468.1185 558 99.434"></polygon>
+                    <polygon id="Shape" fill="#C3002F" points="279 0 279 66.489 279 66.1895 279 369.583 279 369.583 279 599 279 599 515.445757 468.1185 558 99.434"></polygon>
+                    <path d="M278.299484,66 L104,457 L168.987952,457 L204.027539,369.511877 L351.972461,369.511877 L387.012048,457 L452,457 L278.299484,66 Z M329.211704,315.580843 L227.387263,315.580843 L278.299484,193.037548 L329.211704,315.580843 Z" id="Shape" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
